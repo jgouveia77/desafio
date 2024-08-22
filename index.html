@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UACompatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de Texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+
+</head>
+
+
+<body>
+    <header>
+        <div class="logoAlura">
+            <img src="assets/logo-alura-azul.svg" alt="Logotipo da Alura em azul">
+        </div>
+        <div class="menino">
+            <img src="assets/imagem-menino-lupa-azul.svg" alt="Imagem de um menino com uma lupa em azul">
+        </div>
+    </header>
+
+
+    <main>
+        <section>
+            <textarea class="text_area" cols="41" rows="4" placeholder="digite seu texto"></textarea>
+            <div class="informacao">
+                <h6>Apenas letras minusculas e sem acento!</h6>
+            </div>
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncripitar()">Criptografar</button>
+                <button class="btn-desencriptar">Descriptografar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensagem" cols="10" rows="4" placeholder=""></textarea>
+            <button class="btn-copiar" aria-label="Copiar">copiar</button>
+        </section>
+    </main>
+
+
+
+
+
+    <footer class="rodape">
+        <p class="rodape__texto">
+            ©Desenvolvido por Valeriano Gouveia
+        </p>
+        <div class="rodape__links">
+            <a href="https://github.com/jgouveia77" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/valerianogouveia/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
